@@ -2,13 +2,10 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>New person</title>
-</head>
-<head>
-    <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<p>Hewwo</p>
+<p th:text="${person.id}">id</p>
+<p th:text="${person.fullName}">name</p>
 </body>
 </html>
